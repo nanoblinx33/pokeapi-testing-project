@@ -1,0 +1,51 @@
+{
+    "info": {
+        "name": "Pok\u00e9API Testing Collection",
+        "_postman_id": "pokeapi-testing-collection",
+        "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+    },
+    "item": [
+        {
+            "name": "Get Pikachu",
+            "request": {
+                "method": "GET",
+                "header": [],
+                "url": {
+                    "raw": "https://pokeapi.co/api/v2/pokemon/pikachu",
+                    "protocol": "https",
+                    "host": [
+                        "pokeapi",
+                        "co"
+                    ],
+                    "path": [
+                        "api",
+                        "v2",
+                        "pokemon",
+                        "pikachu"
+                    ]
+                }
+            }
+        },
+        {
+            "name": "Get Invalid Pok\u00e9mon",
+            "request": {
+                "method": "GET",
+                "header": [],
+                "url": {
+                    "raw": "https://pokeapi.co/api/v2/pokemon/pikachu12345",
+                    "protocol": "https",
+                    "host": [
+                        "pokeapi",
+                        "co"
+                    ],
+                    "path": [
+                        "api",
+                        "v2",
+                        "pokemon",
+                        "pikachu12345"
+                    ]
+                }
+            }
+        }
+    ]
+}
